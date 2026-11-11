@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+
+# Arquivos gerados pelo Vite
+dist/
+.vite/
+
+# Relatorios e cache
+coverage/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configuracoes locais e segredos
+.env
+.env.*
+!.env.example
+
+# Arquivos locais de editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
